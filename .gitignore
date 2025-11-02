@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Flutter/Dart tool cache and generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Build outputs
+build/
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugins.cmake
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# IDE files
+.idea/
+*.iml
+
+# Web and Chrome temporary files
+.dart_tool/chrome-device/
