@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.hyd_food_discovery"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973" // <-- Updated NDK version
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
